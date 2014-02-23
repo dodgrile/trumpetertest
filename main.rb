@@ -13,7 +13,7 @@ end
 def generateNotes
 notesarray = %w(A B C D E F G )
 notes_string = ""
-(1..8).each do 
+(1..16).each do 
 	notes_string = notes_string + notesarray.sample + "-"
 end
 
